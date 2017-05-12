@@ -2,7 +2,7 @@ use Mix.Config
 
 config :integrator, Integrator.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "inegrator-elixir.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "rocky-taiga-96184.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/manifest.json",
   secret_key_base: System.get_env("SECRET_KEY_BASE")

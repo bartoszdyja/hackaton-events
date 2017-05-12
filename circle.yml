@@ -29,3 +29,8 @@ dependencies:
 test:
   override:
     - mix test
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: rocky-taiga-96184.herokuapp.com
