@@ -39,7 +39,7 @@ defmodule Integrator.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:credo, "~> 0.3", only: [:dev, :test]},
-     {:faker, "~> 0.8", only: [:dev, :test]},
+     {:faker, "~> 0.8"},
      {:ja_serializer, "~> 0.12.0"}]
   end
 
